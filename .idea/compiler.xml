@@ -9,10 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Services" />
         <module name="Domain" />
-        <module name="Application" />
         <module name="BeegApi" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Application" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
