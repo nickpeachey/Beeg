@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="800dd977-aa79-4145-9cf5-5c71a787bada" name="Changes" comment="added Dockerfile">
-      <change afterPath="$PROJECT_DIR$/Services/src/main/java/producers/kafka/BeagleEventProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/src/main/resources/avro/beagle-1.avsc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="800dd977-aa79-4145-9cf5-5c71a787bada" name="Changes" comment="added avro beagle file">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/src/main/java/concrete/BeagleDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeegApi/src/main/java/com/cawooka/demo/controllers/BeagleEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/BeegApi/src/main/java/com/cawooka/demo/controllers/BeagleEventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/src/main/java/concrete/Beagle.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/src/main/java/producers/kafka/BeagleEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Services/src/main/java/com/cawooka/producers/kafka/BeagleEventProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,8 +60,10 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-18"
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "spring.configuration.checksum": "2f59c4e8eaa1f9c0ed5e02d4f22db2f1"
   }
 }]]></component>
   <component name="RunDashboard">
@@ -122,7 +126,8 @@
       <workItem from="1658314077474" duration="7000" />
       <workItem from="1658314110018" duration="302000" />
       <workItem from="1658314478818" duration="7000" />
-      <workItem from="1658328421407" duration="2647000" />
+      <workItem from="1658328421407" duration="3162000" />
+      <workItem from="1658388579031" duration="2849000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1658329179616</created>
@@ -138,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658329957947</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added avro beagle file">
+      <created>1658332451943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658332451943</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="added Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Dockerfile" />
+    <MESSAGE value="added avro beagle file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added avro beagle file" />
   </component>
 </project>

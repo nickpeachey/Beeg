@@ -11,7 +11,8 @@
     <modules>
         <module>BeegApi</module>
         <module>Domain</module>
-<!--        <module>Application</module>-->
+        <module>Services</module>
+        <module>Application</module>
 <!--        <module>Services</module>-->
     </modules>
 
